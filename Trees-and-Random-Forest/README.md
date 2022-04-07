@@ -1,0 +1,4 @@
+# Tree Classifier & Random Forest
+Utilização do algoritmo de Árvores para fazer previsões. Mas, muitas vezes apenas uma árvore não é suficiente para se conseguir uma boa precisão. Então são combinadas várias árvores, gerando assim o que a gente chama de Floresta Randomica. Um algoritmo que usa a saída de vários conjuntos de árvores para tomar uma decisão. Disponível no repositório um exemplo de cada implementação com a biblioteca scikit-learn. Random Forest é adequado para situações em que temos um grande conjunto de dados e a interpretabilidade não é uma grande preocupação. As árvores de decisão são muito mais fáceis de interpretar e entender. Como uma Floresta Randomica combina várias árvores de decisão, torna-se mais difícil de interpretar, mas ainda assim, não é nenhum desafio impossível.
+
+A base de dados usada é a mesma do repositório [Pre-Processamento](https://github.com/Gregory-JP/Pre-Processamento).
