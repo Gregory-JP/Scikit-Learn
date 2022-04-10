@@ -33,4 +33,4 @@ quantidade de vendas de um produto, e assim por diante.
  - Ajuste de parâmetros – comparar, validar e escolher parâmetros e modelos, de maneira automatizada. Podemos facilmente comparar diferentes 
  parâmetros no ajuste de um modelo, encontrando assim a melhor configuração para a aplicação em questão.
  
- Você vai encontrar muita mais informações na [documentação](https://scikit-learn.org/stable/).
+ Você vai encontrar muito mais informações na [documentação](https://scikit-learn.org/stable/).
