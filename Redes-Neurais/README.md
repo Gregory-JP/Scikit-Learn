@@ -8,7 +8,7 @@ O primeiro tijolo na construção de uma rede neural são os neurônios. Um neur
 
 Neurônios que podem ser usados em redes neurais:
 
-- <strong><h3> Perceptron </strong> (Frank Rosenblatt - 1957) </h3>
+- <strong><h3> Perceptron (Frank Rosenblatt - 1957) </h3></strong>
   - Formado por N entradas e 1 saída;
   - É um classificador binário linear, ou seja, resolve problemas de classificação cuja a saída é categorica. Mas, pode ser adaptado para efetuar regressão       linear;
   - Linear quer dizer que o Perceptron só resolve um problema de classificação binária, separaveis por uma reta;
