@@ -1,36 +1,32 @@
-# Scikit-Learn
-Todos os meus projetos de ML usando a biblioteca Scikit-Learn no Jupyter Notebook. Alguns algoritmos de previsões que desenvolvi usando as funcionalidades
-da biblioteca. Todos os códigos usam a mesma base de dados, que pode ser encontrada no repositório de [Pre-Processamento](https://github.com/Gregory-JP/Pre-Processamento).
+# Redes Neurais
 
-## O que é o Scikit-Learn?
-O scikit-learn é uma biblioteca da linguagem Python desenvolvida especificamente para aplicação prática de machine learning. 
-Esta biblioteca dispõe de ferramentas simples e eficientes para análise preditiva de dados, é reutilizável em diferentes situações, 
-possui código aberto, sendo acessível a todos e foi construída sobre os pacotes NumPy, SciPy e matplotilib.
+## O que são Redes Neurais?
+Redes neurais são sistemas de computação com nós interconectados que funcionam como os neurônios do cérebro humano. Usando algoritmos, elas podem reconhecer padrões escondidos e correlações em dados brutos, agrupá-los e classificá-los, e – com o tempo – aprender e melhorar continuamente.
+O primeiro tijolo na construção de uma rede neural são os neurônios. Um neurônio é como uma função, aceita algumas entradas e devolve algumas saídas.
 
-## Principais aplicações
-O sklearn está organizado em muitos módulos, cada um desenvolvido para uma finalidade específica. 
-Nestes módulos encontraremos funções para as mais diferentes aplicações. Analisando estas diferentes aplicações entenderemos a 
-organização da biblioteca, e como encontrar o que buscamos.
-    
-- Pré-processamento – normalmente esta é a etapa mais trabalhosa no desenvolvimento de um modelo de machine learning. O NumPy e o Pandas são largamente 
-utilizados nesta etapa, mas também teremos funções para esta finalidade no sklearn, pensadas especialmente para tratamento de dados que 
-alimentarão algoritmos de machine learning.
+<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Neural_network.svg/1200px-Neural_network.svg.png' width=350></img>
 
-- Classificação – desenvolvimento de modelos capazes de detectar a qual categoria pré-determinada um elemento pertence. Podemos identificar se um aluno 
-foi reprovado ou aprovado, se uma pessoa possui ou não determinada doença, ou ainda qual doença uma pessoa pode ter dentre várias possíveis, 
-dentre muitas outras possibilidades.
+## Para que serve uma Rede Neural?
+As redes neurais refletem o comportamento do cérebro humano, permitindo que programas de computador reconheçam padrões e resolvam problemas comuns nos campos de IA, machine learning e deep learning. Portanto, o campo de atuação das redes neurais é gigantesco. Algumas aplicações são:
+- Descoberta de novos remédios
+- Entendimento de linguagem natural
+- Carros autônomos
+- Reconhecimento facial
 
-- Regressão – desenvolvimento de modelos que podem atribuir um valor contínuo a um elemento. Podemos prever o preço de um imóvel, altura de uma pessoa, 
-quantidade de vendas de um produto, e assim por diante.
+## Como uma Rede Neural funciona?
+Com um valor de entrada, a rede processa e retorna uma resposta. O nuerônio é ativado somente se o valor for maior que um limiar. <br>
+ENTRADA -> NEURÔNIOS E AXÔNIOS -> SAÍDA <br>
 
- - Clusterização – desenvolvimento de modelos para detecção automática de grupos com características similares em seus integrantes. 
- Podemos identificar clientes com comportamentos parecidos, grupos de risco de determinada doença, verificar padrões entre moradores de uma cidade, 
- e muitos outros agrupamentos.
+A RN fará atualização de pesos e também pode conter camadas ocultas, que podem ser definidas pelo programador. Também podem ser escolhidos os tipos de função de ativação. Os mais comuns são:
+- Linear
+- Sigmoid
+- Tanh
+- ReLU
+- Leaky ReLU
+- eLU
 
- - Redução de dimensionalidade – reduzir o número de variáveis em um problema. Com esta redução podemos diminuir consideravelmente a quantidade de 
- cálculos necessários em um modelo, aumentando a eficiência, com uma perde mínima de assertividade.
+Cada uma pode ser aplicada em diferentes tipos de problemas, podendo ser eficientes ou não, depende do tipo de problema a ser resolvido.
+Você vai encontrar muita mais informações na [documentação](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html).
 
- - Ajuste de parâmetros – comparar, validar e escolher parâmetros e modelos, de maneira automatizada. Podemos facilmente comparar diferentes 
- parâmetros no ajuste de um modelo, encontrando assim a melhor configuração para a aplicação em questão.
  
- Você vai encontrar muita mais informações na [documentação](https://scikit-learn.org/stable/).
+ A base de dados pode ser encontrada no repositório de [Pre-Processamento](https://github.com/Gregory-JP/Pre-Processamento).
