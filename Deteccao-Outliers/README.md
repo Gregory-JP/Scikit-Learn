@@ -1,8 +1,3 @@
-# Python Fundamentos
+# Detecção de Outliers
 
-Data Science Academy - Repositório dos Arquivos do Curso Gratuito Python Fundamentos para Análise de Dados.
-
-https://www.datascienceacademy.com.br
-
-
-
+Outliers são registros fora do padrão que podem comprometer a acuracia dos nossos algoritmos. Boxplot e scatterplot são algumas maneiras de visualizá-los graficamente.
