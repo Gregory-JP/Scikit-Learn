@@ -1,5 +1,5 @@
 # Scikit-Learn
-Todos os meus projetos de ML usando a biblioteca Scikit-Learn no Jupyter Notebook. Alguns algoritmos de previsões que desenvolvi usando as funcionalidades
+Projetos de ML usando a biblioteca Scikit-Learn no Jupyter Notebook. Alguns algoritmos de previsões que desenvolvi usando as funcionalidades
 da biblioteca. Todos os códigos usam a mesma base de dados, que pode ser encontrada no repositório de [Pre-Processamento](https://github.com/Gregory-JP/Pre-Processamento).
 
 ## O que é o Scikit-Learn?
